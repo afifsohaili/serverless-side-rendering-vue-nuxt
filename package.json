@@ -25,7 +25,7 @@
     "express": "^4.16.3",
     "helmet": "^3.13.0",
     "mongoose": "^5.1.7",
-    "nuxt": "^1.4.2",
+    "nuxt": "^2.0.0",
     "serverless-apigw-binary": "^0.4.4",
     "serverless-http": "^1.6.0"
   },

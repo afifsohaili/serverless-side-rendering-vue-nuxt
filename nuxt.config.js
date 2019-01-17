@@ -9,7 +9,6 @@ module.exports = {
     ]
   },
   build: {
-    vendor: ['axios'],
     publicPath: `/${require('./secrets.json').NODE_ENV}/_nuxt/`
   },
   srcDir: 'client/',
