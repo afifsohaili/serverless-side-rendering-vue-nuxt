@@ -30,6 +30,7 @@
     "serverless-http": "^1.6.0"
   },
   "devDependencies": {
+    "serverless": "^1.36.1",
     "serverless-domain-manager": "^2.6.0",
     "serverless-offline": "^3.25.7"
   }
