@@ -2,7 +2,7 @@
 <div>
   <h1>Here you have all dogs.</h1>
   <ul>
-    <li v-for="dog in dogs" v-bind:key="dog.id">
+    <li v-for="dog in dogs" v-bind:key="dog.id" @click="popupDogsName(dog.breeds[0].name)">
       <img :src="dog.url" alt="">
     </li>
   </ul>
@@ -29,6 +29,11 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    popupDogsName(name) {
+      alert(name);
+    }
   }
 };
 </script>
